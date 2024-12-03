@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: purple;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 2px solid purple;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9ff;
+}
+
+.core-services {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.core-services .services-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service {
+  max-width: 300px;
+  text-align: center;
+}
+
+.service img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.service h3 a {
+  text-decoration: none;
+  color: purple;
+}
+
+.journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.journey img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.journey p {
+  max-width: 700px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.why-choose {
+  padding: 50px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.why-choose-content .text {
+  max-width: 50%;
+}
+
+.why-choose-content img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+h2, h3 {
+  color: purple;
+}
